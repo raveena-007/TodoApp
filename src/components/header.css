@@ -1,12 +1,29 @@
-.header{
+.header {
+  width: 100%;
   background-color: #2f1f1f;
   text-align: center;
   font-weight: bold;
-  height: 50px;
-  padding: 15px;
+  padding: 1rem;
   font-size: 1.5em;
-  margin: 0px;
+  margin: 0;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  height: auto;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
+/* Responsive font and padding for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.2em;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 1em;
+    padding: 0.6rem;
+  }
+}

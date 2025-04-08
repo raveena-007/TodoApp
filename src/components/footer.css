@@ -1,4 +1,4 @@
-.footer{
+.footer {
   position: fixed;
   bottom: 0;
   font-size: 1.2em;
@@ -6,10 +6,39 @@
   font-weight: bold;
   width: 100%;
   background-color: #2f1f1f;
-  padding: 20px;
+  padding: 1rem;
   color: white;
+  z-index: 1000;
 }
 
-.item{
-  margin: 50px;
+/* Prevent content from being hidden behind the fixed footer */
+body {
+  padding-bottom: 70px; /* Adjust this based on the footer height */
+}
+
+.item {
+  margin: 3rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 1em;
+    padding: 0.8rem;
+  }
+
+  .item {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.9em;
+    padding: 0.6rem;
+  }
+
+  .item {
+    margin: 1rem;
+  }
 }

@@ -1,6 +1,6 @@
 
 .inputContainer{
-  background-color:white;
+  background-color:rgb(57, 50, 50);
   border-radius: 8px;
   padding: 20px;
   width: 500px;
@@ -25,7 +25,7 @@
 .todoButton{
   border: none;
   border-radius: 4px;
-  background-color:#06741e;
+  background-color:#0f0901;
   padding: 12px 20px;
   color: #fff;
   cursor: pointer;
@@ -33,5 +33,5 @@
 
 
 .container{
-  background-color: white;
+  background-color:rgb(206, 209, 105);
 }
